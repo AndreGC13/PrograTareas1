@@ -7,10 +7,13 @@ int main() {
     std::cout << "*       *\n";
     std::cout << "*       *\n";
     std::cout << "*       *\n";
+    std::cout << "*       *\n";
+    std::cout << "*       *\n";
+    std::cout << "*       *\n";
     std::cout << "*********\n\n";
 
 
-    std::cout << "Figura_óvalo:\n";
+    std::cout << "Figura_Ã³valo:\n";
     std::cout << "  ***  \n";
     std::cout << " *   * \n";
     std::cout << "*     *\n";
