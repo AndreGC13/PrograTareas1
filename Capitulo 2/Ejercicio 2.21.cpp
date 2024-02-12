@@ -25,6 +25,9 @@ int main() {
     std::cout << "    *   \n";
     std::cout << "   ***  \n";
     std::cout << "  ***** \n";
+    std::cout << " ******* \n";
+    std::cout << "    *   \n";
+    std::cout << "    *   \n";
     std::cout << "    *   \n";
     std::cout << "    *   \n\n";
 
@@ -32,6 +35,7 @@ int main() {
     std::cout << "Figura_Diamante:\n";
     std::cout << "    *   \n";
     std::cout << "   ***  \n";
+    std::cout << "  ***** \n";
     std::cout << "  ***** \n";
     std::cout << "   ***  \n";
     std::cout << "    *   \n";
