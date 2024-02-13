@@ -8,8 +8,8 @@ int main() {
     std::cout << "*       *   *       *                  *******        *      *      \endl";
     std::cout << "*       *  *         *                *********      *        *     \endl";
     std::cout << "*       *  *         *               ***********    *          *    \endl";
-    std::cout << "*       *    *      *                     *          *        *       \endl";
-    std::cout << "*       *     *****                       *           *     *       \endl";
+    std::cout << "*       *    *      *                     *          *        *     \endl";
+    std::cout << "*       *     *****                       *           *      *       \endl";
     std::cout << "*********                               *****            *         \endl\endl";
 
     return 0;
