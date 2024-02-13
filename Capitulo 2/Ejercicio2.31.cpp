@@ -5,7 +5,7 @@ int main() {
     double totalKilometros, costoGasolina, cuotasEstacionamiento, peaje;
 
     // Se le pide que ingrese los valores al usuario
-    std::cout << "Ingrese el total de kilómetros conducidos por dia hacia el trabajo: ";
+    std::cout << "Ingrese el total de kilÃ³metros conducidos por dia hacia el trabajo: ";
     std::cin >> totalKilometros;
 
     std::cout << "Ingrese el costo por litro de gasolina en quetzales para su total: ";
@@ -17,8 +17,8 @@ int main() {
     std::cout << "Ingrese el peaje por dia en quetzales si es que utiliza, en dado caso no ingrese 0: ";
     std::cin >> peaje;
 
-    // Cálculo del costo diario
-    double costoDiario = (totalKilometros / 12) * costoGasolina + cuotasEstacionamiento + peaje;
+    // CÃ¡lculo del costo diario
+    double costoDiario = (totalKilometros / totalkilometrosdias 12) * costoGasolina + cuotasEstacionamiento + peaje;
 
     // Resultado en quetzales
     std::cout << "El costo diario por conducir al trabajo es de: " << costoDiario << " quetzales" << std::endl;
