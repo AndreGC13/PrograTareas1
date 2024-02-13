@@ -1,5 +1,5 @@
 #include <iostream>
-//Figuras geometricas dadas para poder realizar
+//Figuras geometricas dadas para poder realizar con forma de impresion 
 int main() {
 
     std::cout << "Figura_Cuadrado:\endl";  
