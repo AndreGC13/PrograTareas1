@@ -58,9 +58,9 @@ public:
 };
 
 int main() {
-  Factura factura("FP-1234", "Martillo", 2, 15.50);
-  std::cout << "Número de pieza: " << factura.getNumeroPieza() << std::endl;
-  std::cout << "Descripción: " << factura.getDescripcion() << std::endl;
+  Factura factura("FP-5035", "Alicate", 2, 15.50);
+  std::cout << "NÃºmero de pieza: " << factura.getNumeroPieza() << std::endl;
+  std::cout << "DescripciÃ³n: " << factura.getDescripcion() << std::endl;
   std::cout << "Cantidad: " << factura.getCantidad() << std::endl;
   std::cout << "Precio unitario: Q" << factura.getPrecioUnitario() << std::endl;
   float montoTotal = factura.obtenerMontoFactura();
