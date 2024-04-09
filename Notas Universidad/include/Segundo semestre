@@ -1,0 +1,22 @@
+#ifndef SEGUNDOSEMESTRE_H
+#define SEGUNDOSEMESTRE_H
+
+#include <string>
+
+class SegundoSemestre {
+private:
+    std::string nombre;
+    float primerExamen[5];
+    float segundoExamen[5];
+    float tercerExamen[5];
+    float notaTotal[5];
+
+public:
+    SegundoSemestre(std::string n);
+
+    void calcularNotas();
+
+    void mostrarNotas();
+};
+
+#endif // SEGUNDOSEMESTRE_H

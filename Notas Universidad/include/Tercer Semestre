@@ -1,0 +1,23 @@
+#ifndef TERCERSEMESTRE_H
+#define TERCERSEMESTRE_H
+
+#include <string>
+
+class TercerSemestre {
+private:
+    std::string nombre;
+    float primerExamen[5];
+    float segundoExamen[5];
+    float tercerExamen[5];
+    float notaTotal[5];
+
+public:
+    TercerSemestre(std::string n);
+
+    void calcularNotas();
+
+    void mostrarNotas();
+};
+
+#endif // TERCERSEMESTRE_H
+

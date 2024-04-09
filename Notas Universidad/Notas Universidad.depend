@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1712636228 source:d:\progra 1 2024\prograuno2k24\notas universidad\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<string>
+
